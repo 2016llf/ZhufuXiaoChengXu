@@ -1,0 +1,24 @@
+<view class='container'>
+  <view class='mask'></view>
+  <view class='inner'>
+    <form bindsubmit='save'>
+
+      <!--to name -->
+      <view class='item'>
+        <text class='key'>对方称呼</text>
+        <input name="toname" class='value' value='{{toname}}' bindblur='setToName'></input>
+      </view>
+
+      <!--from name -->
+      <view class='item'>
+        <text class='key'>落款祝福</text>
+        <input name="nickName" class='value' value="{{userInfor.nickName}}" bindblur="setNickName"></input>
+      </view>
+
+
+      <view class='btns'>
+        <button form-type='submit' class='save-btn' hover-class='button-hover'>保存</button>
+      </view>
+    </form>
+  </view>
+</view>

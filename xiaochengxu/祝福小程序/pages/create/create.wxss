@@ -1,0 +1,50 @@
+.row{
+  width: 100%;
+  height: 30%;
+  background: rebeccapurple;
+}
+
+.container{
+  background-color: #f7f4ee;
+  color: #424242;
+}
+.inner{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60rpx;
+}
+
+.from{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name input{
+  text-align: center;
+  height: 78rpx;
+  border-radius: 2px solid #d9ba6a;
+  background-color: #fff;
+  line-height: 78rpx;
+  font-size: 32rpx;
+}
+.more input{
+  border: 2rpx solid #e7404d;
+  box-shadow: 0 0 5px #e7404d;
+}
+
+
+.btns .save-btn{
+  width: 630rpx;
+  height: 94rpx;
+  background-color: #d9ba6a;
+  color: #fff;
+  line-height: 94rpx;
+}
+.btns{
+  margin-top:40rpx;
+  display:flex;
+  justify-content:center;
+}

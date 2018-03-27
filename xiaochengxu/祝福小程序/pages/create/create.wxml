@@ -1,0 +1,19 @@
+<template name="text1">
+
+</template>
+
+<view class='container'>
+  <view class='inner'>
+    <form bindsubmit='generate'>
+      <!--称呼-->
+      <view class="name {{isMore ? 'more' : ''}}">
+        <input bindinput='changeToName' name="toname" placeholder='怎么称呼他？(不超过10个字)' input-placeholder="i-named"></input>
+
+      </view>
+
+      <view class='btns'>
+        <button form-type='submit' class='save-btn' hover-class='button-hover'>保存</button>
+      </view>
+    </form>
+  </view>
+</view>
